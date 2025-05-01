@@ -63,3 +63,9 @@ function searchRecipes(){
     document.getElementById('popupCard').style.display ='none';
 
  }
+
+ document.getElementById('searchInput').addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      searchRecipes(); // Call the searchRecipes function , "Enter" key in war!
+    }
+  });
