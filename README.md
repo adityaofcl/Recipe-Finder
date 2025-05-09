@@ -1,6 +1,6 @@
-#Recipe Finder
+#FindMyRecipe
 
-Craving something delicious? Recipe Finder is a user-friendly web application that allows you to easily search for your favorite recipes and explore new culinary delights. Powered by the free and comprehensive [TheMealDB API](https://www.themealdb.com/), this project provides a seamless way to find recipe ideas based on keywords.
+Craving something delicious? FindMyRecipe is a user-friendly web application that allows you to easily search for your favorite recipes and explore new culinary delights. Powered by the free and comprehensive [TheMealDB API](https://www.themealdb.com/), this project provides a seamless way to find recipe ideas based on keywords.
 
 **Key Features:**
 
