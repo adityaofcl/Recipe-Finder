@@ -69,3 +69,5 @@ function searchRecipes(){
       searchRecipes(); // Call the searchRecipes function , "Enter" key in war!
     }
   });
+
+searchRecipes();
