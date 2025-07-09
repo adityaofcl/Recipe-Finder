@@ -1,5 +1,5 @@
 function searchRecipes(){
-    const searchInput = document.getElementById('searchInput').value; // Corrected: getElementById (singular 'Element')
+    const searchInput = document.getElementById('searchInput').value || "chicken"; // Corrected: getElementById (singular 'Element')
     const recipesDiv = document.getElementById('recipes'); // Corrected: Changed 'notFound' to 'recipes' to target the correct div
     const notFoundDiv = document.getElementById('notFound'); // Added to correctly target the notFound div
    
