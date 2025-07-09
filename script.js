@@ -32,6 +32,8 @@ function searchRecipes(){
         <button onclick="viewRecipe('${meal.idMeal}')">
          View Recipes </button>
         `;
+   
+
        recipesDiv.appendChild(card);
        
       });
@@ -66,8 +68,9 @@ function searchRecipes(){
 
  document.getElementById('searchInput').addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-      searchRecipes(); // Call the searchRecipes function , "Enter" key in war!
+      searchRecipes(); // Call the searchRecipes function
     }
   });
+
 
 searchRecipes();
